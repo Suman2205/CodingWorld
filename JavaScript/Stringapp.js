@@ -1,0 +1,14 @@
+let msg="   Hello  ";
+console.log(msg.trim());
+console.log(msg.toLowerCase());
+console.log(msg.toUpperCase());
+let str="IloveCoding";
+console.log(str.indexOf("I"));
+console.log(str.indexOf("l"));
+console.log(str.indexOf("Cod"));
+console.log(str.indexOf("a"));
+console.log(str.slice(1,4));
+console.log(str.slice());
+console.log(str.slice(0));
+console.log(str.slice(-4));
+console.log(str.repeat(3));

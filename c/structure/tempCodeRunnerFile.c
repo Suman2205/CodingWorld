@@ -1,0 +1,1 @@
+printf("%c\n",arr[i].tier);

@@ -1,0 +1,10 @@
+student=["karan",85,"Delhi"]
+print(type(student))
+print(len(student))
+print(student)
+print(type(student[2]))
+student[0]="arjun"
+student[2]=75
+print(type(student[2]))
+print(student[0])
+print(student)

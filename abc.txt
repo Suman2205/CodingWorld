@@ -1,0 +1,2 @@
+Java is a pure object oriented lanuage.
+File Handling is an important concept.

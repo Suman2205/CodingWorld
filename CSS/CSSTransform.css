@@ -1,0 +1,33 @@
+section{
+    margin-top: 100px;
+}
+div{
+    width: 200px;
+    height: 50px;
+    background-color: aqua;
+    border: 2px solid black;
+    text-align: center;
+    margin: 10px;
+}
+div:nth-of-type(2n){
+    background-color: #fdb6a1;
+}
+div:nth-of-type(3n){
+    background-color: aquamarine;
+}
+#one{
+    transform: rotate(-45deg);
+}
+#two{
+    transform: scale(0.5,2);
+}
+#three{
+    transform:translate(10px,10px);
+}
+#four{
+    transform: skew(45deg);
+    /* transform:skew(-90deg);    hidden karne ke liye*/
+}
+#five{
+    transform: rotate(45deg) skew(30deg) translate(100px,100px) scale(2);
+}

@@ -1,0 +1,8 @@
+f=open("practice.txt","r")
+# data=f.read()
+line1=f.readline()
+# print(data)
+print(line1)
+data=f.read()
+print(data)
+f.close()

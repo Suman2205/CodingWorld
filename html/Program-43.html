@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Feedback Form</title>
+</head>
+<body bgcolor="aqua">
+    <h1>Welcome to student feedback portal</h1>
+    <h2>Course: Web Development</h2>
+    <h4><I>Instructor: ABC</I></h4>
+    <img src="Apple.jpg" height="200px" width="200px">
+
+    <p><strong><font size="4">Topics Covered:</font></strong></p>
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+    <strong><font size="4">Technology Used:</font></strong>
+    <ul>
+        <li>VS Code</li>
+        <li>Chrome</li>
+        <li>GitHub</li>
+    </ul>
+    <br><br>
+    <B>Water Formula is H<sub>2</sub>O.</B><br>
+    <I>Pythagoras Theorem is H<sup>2</sup> = P<sup>2</sup> + B<sup>2</sup></I><br><br>
+    <table border="1" style="background-color: white">
+        <tr>
+            <th>Module</th>
+            <th>Duration</th>
+        </tr>
+        <tr>
+            <td>HTML & CSS</td>
+            <td>2 Weeks</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>3 Weeks</td>
+        </tr>
+    </table>
+    <br><br>
+    <form action="/program" method="post">
+        <div>
+            <label for="name">Name: </label>
+            <input type="text" name="name" placeholder="Enter your name" id="name">
+            <label for="pass">Password: </label>
+            <input type="password" name="pass" placeholder="Enter your password" id="pass">
+            <br>
+            <label for="feedback">Your Experience: </label><br>
+            <textarea name="feedback" placeholder="Write your feedback here...." id="feedback"></textarea><br>
+        </div><br>
+        <div>
+            Was the course heplful<br>
+            <input type="radio" name="review" value="yes" id="yes">
+            <label for="yes">Yes</label><br>
+            <input type="radio" name="review" value="no" id="no">
+            <label for="no">No</label><br>
+        </div><br>
+        <div>
+            What did you like?(Select all that apply)<br>
+            <input type="checkbox" name="choices" id="content" value="content">
+            <label for="content">Content</label><br>
+            <input type="checkbox" name="choices" id="practice" value="practice">
+            <label for="practice">Hands on practice</label><br>
+            <input type="checkbox" name="choices" id="support" value="support">
+            <label for="support">Teacher Support</label><br>
+        </div><br>
+        <button type="submit">Submit Feedback</button><br><br>
+    </form>
+    Go Back to <a href="Program-43.html">Home Page</a>
+</body>
+</html>
